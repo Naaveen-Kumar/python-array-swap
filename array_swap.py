@@ -1,4 +1,4 @@
-def goto(linenum): #This function helps us execute specific set of codes as and when required.
+def goto(linenum): #This function helps us execute specific set of codes as and when required. To understand more, refer the 'jump_example.py" program in the same repository.
     """This function helps us execute specific set of codes as and when required."""
     global line
     line = linenum
