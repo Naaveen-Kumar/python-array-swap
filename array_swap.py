@@ -30,7 +30,8 @@ for i in range(10): #This is the part where we swap the contents.
         temp=myarray[i]
         myarray[i]=myarray[i+1]
         myarray[i+1]=temp
-    else: #If we don't continue when the index is odd, then the two values will be swapped again leaving us with the original array.
+    else: #If we don't continue when the index is odd, then we will have an array with only the first value moved to the last position.
+        #1,2,3,4,5,6,7,8,9,0 to 2,3,4,5,6,7,8,9,0,1
             #Also, we get index out of bounds exception, since we use i+1
         continue
 
